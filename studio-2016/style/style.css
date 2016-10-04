@@ -118,3 +118,22 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.producer-list {
+	width: 600px%;
+}
+
+.producer-pic {
+	float: left;
+	width: :300px;
+}
+
+.producer-info {
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+
+.producer-info .producer-text {
+	height: 200px;
+}
