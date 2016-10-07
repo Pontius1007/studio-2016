@@ -117,12 +117,25 @@ body {
 .product-bar > .product {
 	text-align: center;
 	max-width: 200px;
+	height: 430px;
 }
 
 .product-bar img {
 	height: 150px;
 	width: 150px;
+	border-radius: 75px;
 }
+
+.product-bar a {
+	color: black;
+}
+
+.product-bar p {
+	color: #4c4f54;
+}
+
+/** END PRODCUT BAR**/
+
 
 .wrapper .text {
 	margin: auto;
@@ -168,4 +181,26 @@ body {
 	width: 100%;
 	top: -25px;
 	position: relative;
+}
+
+/**INFORMATION**/
+.information-list {
+	width: 600px;
+	margin: auto;
+}
+
+.information-text {
+	float: left;
+	width: :300px;
+}
+
+.information-pic {
+	float: left;
+	width: 500px;
+	margin-left: 0;
+}
+
+.information-pic .pic {
+	max-width: 700px;
+	max-height: 500px;
 }
