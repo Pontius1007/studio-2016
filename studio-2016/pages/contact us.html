@@ -32,14 +32,25 @@
 			</nav>
 		</div>
 
-		<div class="img">
-			<img src="../images/NW/Bilder_fra_NW/14074948_10153993613654773_200096922_o.jpg", width="500">
-		</div>
-
-		<div class="text">
-			<p>We are five producers who worked together to open a complete music studio on Marienborg in Trondheim.  We buildt the studio from completely empty rooms and the studio now consist of a recording room, a vokal booth, a controle room and a kitchen/storage place. The acoustic and comfortable design of the controle room got a sofa and a creative atmosfere. In the small kitchen you can make youself a cup of coffe or get a cold beer from the fridge. And the recording room is filled with fantastic instruments for a band who wants to record live.</p>
-			<p>No matter if it is recording, mastring or miksing, we put all our efforts into making the best possible result for our customers. We are always looking for new and exiting prodjects, so dont hesitate to <a href="">contact us</a>.
-		</div>
+		<div class="map">
+			<script>
+			function initmap() {
+				var uluru = {lat: -25.363, lng: 131.044};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 4,
+					center: uluru
+				});
+				var marker = new google.maps.marker({
+					position:uluru,
+					map: map
+				})
+				
+			}
+		
+			</script>
+			<script async defer
+       			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqBdL5l1mUSMg2YcpVW3PEdhXB7ayUOPQ &callback=initMap">
+    		</script>
 
 
 	</div>

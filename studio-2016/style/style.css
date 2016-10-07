@@ -115,12 +115,13 @@ body {
 
 .img {
 	display: block;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
 
+/*This 4 rules makes the style on producers.html*/
 .producer-list {
-	width: 600px%;
+	width: 600px;
 }
 
 .producer-pic {
@@ -136,4 +137,36 @@ body {
 
 .producer-info .producer-text {
 	height: 200px;
+}
+
+.center {
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.map {
+	height: 400px;
+	width: 100%;
+}
+
+/*This 4 rules makes layout on text and images on imformation.html*/
+.information-list {
+	width: 600px;
+	margin: auto;
+}
+
+.information-text {
+	float: left;
+	width: :300px;
+}
+
+.information-pic {
+	float: left;
+	width: 500px;
+	margin-left: 0;
+}
+
+.information-pic .pic {
+	max-width: 700px;
+	max-height: 500px;
 }
