@@ -152,13 +152,17 @@ body {
 	margin-right: auto;
 }
 
-.producer-list {
-	width: 600px%;
+css 
+.producers {
+	width: 600px;
 }
 
-.producer-pic {
+.producer-box {
 	float: left;
-	width: :300px;
+	width: 600px;
+	height: 300px;
+	border-width: 2px;
+	border-color: #000000
 }
 
 .producer-info {
@@ -207,4 +211,29 @@ body {
 .information-pic .pic {
 	max-width: 100%;
 	max-height: 500px;
+}
+
+
+<!--Producers-->
+.prodtekst {
+    width: 100%
+}
+.prodtekst .tekst {
+    float: left;
+    width: 70%;
+}
+.prodtekst .beside {
+    float: right;
+    width: 25%;
+}
+.prodtekst .beside img {
+    width: 200px;
+    height: 200px;
+}
+.prodtekst .beside .form {
+    border: 2px solid;
+    border-radius: 7px;
+}
+.prodtekst .beside .form .row {
+    margin-left: 2px;
 }
