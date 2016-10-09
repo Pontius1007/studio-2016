@@ -274,3 +274,34 @@ body {
 .prodtekst .beside .form .row {
     margin-left: 2px;
 }
+
+/*Prices*/
+
+.prices-box{
+	width: 100%;
+}
+
+.price-element{
+	width: 70%;
+	margin: auto;
+}
+
+.price-name {
+	width: 450px;
+	float: left;
+}
+
+.price-number {
+	width: 130px;
+	float: left;
+}
+
+.prices.box p {
+	color: #4c4f54;
+}
+
+.button {
+	width: 100px;
+	margin: auto;
+	margin-top: 20px;
+}	
