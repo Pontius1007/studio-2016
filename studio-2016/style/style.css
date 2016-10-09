@@ -134,7 +134,7 @@ body {
 	color: #4c4f54;
 }
 
-/** END PRODCUT BAR**/
+/** END PRODUCT BAR**/
 
 
 /*who are we*/
@@ -250,8 +250,45 @@ body {
 }
 /*end INFORMATION*/
 
+/*Studio*/
+.studio {
+	width: 100%
+}
+.studio img{
+	width: auto;
+	max-width: 860px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.studio .leftbox {
+	float: left;
+	width: 45%
+}
+.studio .rightbox {
+	float: right;
+	width: 45%
+}
+.studio .leftbox img {
+	width: auto;
+	max-width: 430px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.studio .rightbox {
+	float: right;
+	width: 45%
+}
+.studio .rightbox img {
+	width: auto;
+	max-width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-<!--Producers-->
+/*Producers*/
 .prodtekst {
     width: 100%
 }
