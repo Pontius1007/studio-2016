@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>P[2] Design</title>
+	<link href="main.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+	<header>
+		<div class="wrap">
+			<h1 class="name">P[2] Design</h1>
+			<nav>
+				<a href="../../index.html">Home</a>
+				<a href="../../index.html#assignments">Assignments</a>
+				<a href="../../index.html#project">Project</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+	
+	<section class="document">
+		<div class="wrap">
+
+			<h3><a href="p1_requirements.html">Previous</a>|</h3><h3>|<a href="p3_changes.html">Next</a></h3>
+			<div class="box left">
+				<nav>
+					<a href="#task1">Task 1</a>
+					<a href="#task2">Task 2</a>
+					<a href="#task3">Task 3</a>
+					<a href="#task4">Task 4</a>
+					<a href="#task5">Task 5</a>
+					<a href="#task6">Task 6</a>
+					<a href="#task7">Task 7</a>
+					<a href="#task8">Task 8</a>
+				</nav>
+			</div>
+
+			<div id="task1">
+		      <h3>1. Document Details</h3>
+
+		      <div class="box left">
+		      <h4>P1 Project Requirements</h4>
+		      <h4>08/10-2015</h4>
+			        <ul>
+			          <li>Sondre Steinsland Hegdal</li>
+			          <li>Embrik Einang</li>
+			          <li>Martin Dammerud</li>
+			          <li>Olav Todal</li>
+			          <li>Espen Dammen</li>
+			        </ul>
+		        </div>
+		    </div>
+
+		    <div id="task2">
+			    <h3>2. Client</h3>
+			    <div class="box left">
+			      <p>
+			        <ul>
+			        <h4>Client</h4>
+			          <li>Salty Gaming</li>
+			        <h4>Website Name</h4>
+			          <li>
+			          	Salty Gaming
+			          </li>
+			         <h4>Contact Person</h4>
+			          <li>Arnt Bjørnson (fictive)</li>
+			        </ul>
+		   		</div>
+
+		   	<div id="task3">
+				<h3>3. Purpose and goal</h3>
+				<div class="box left">
+					<p>The website’s purpose is to spread and educate the public about the gaming clan called “Salty Gaming”.  In addition, to inform the audience about news and information regarding the organization and team, upcoming events where the organization will be present, and promote its players and endeavor as well as sponsors.</p>
+					<p>Other purposes would be to create revenue through the online shop, and provide a channel for communication. </p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+
+	<section class="document">
+		<div class="wrap">
+			<div id="task4">
+				<h3>4. Navigation Structure</h3>
+				<div class="box left">
+					<p>The web site navigation is mostly based on the clique structure, where you can access all websites on the page from every other page, except for two. The clique includes the subgraph with the elements: home.html, about.html, games.html, sponsors.html, contact.html and shop_select_items.html.</p>
+					<p>The sites not included, that has to be visited through another page is players.html, which is accessed through games.html, and shop_place_order.html, which is accessed through shop_selct_items.html. The two sites can access all others. </p>
+					<p>The structure is described in the directed graph below. The "*" behind players.html means there will be several pages in the same category with the same navigation structure, since the team has more than one player. This is done to keep the navigation bar clean, and still keep the user a maximum of three clicks away from the destination at any given time.</p>
+					<img src="images/navstructure.png" alt="Navigation Structure">
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div id="task5">
+
+				<h3>5. Page Layout and Appearance</h3>
+				<div class="box left">
+					<p>The canvas size used in the mockups is 960 px content width. On pages where there is a main section and a sidebar, the main section takes up 2/3rds of the width and the sidebar 1/3rd, with some margin in between. Margin size may vary from page to page.</p>
+					<p>The logo will be placed in the top left corner of the header, and the navigation on the opposite side under the social media logos. The logo will take up about 1/4th to 1/3rd of the content width, and the navigation about 1/3rd to 1/2 of the content width. These may vary depending on display size.</p>
+					<p>On mobile/pads, the responsive design will resize the elements to take 100% of the width, so thus the sidebar will either go away or be presented in an alternative way, together with the navigation and social media bar.</p>
+					<img src="images/blank.jpg" alt="Blank page layout">
+				</div>
+
+
+				<h3>Fonts</h3>
+				<div class="box left">
+				<a href="https://www.google.com/fonts/specimen/Lato">Lato</a>
+					<ul>
+						<li>Navigation: Black Uppercase 30 px</li>
+						<li>Main Page Headline: Black Uppercase 80px</li>
+						<li>Secondary Headline: Black Uppercase 60px</li>
+						<li>Complementary text: Black Lowercase 20-40px</li>
+						<li>Sidebar Headlines: Black 40px</li>
+						<li>Sidebar: Regular 30px</li>
+					</ul>
+
+				<a href="https://www.google.com/fonts/specimen/Open+Sans">Open Sans</a>
+					<ul>
+						<li>Body text: 20-30px</li>
+						<li>Read More: Uppercase 30px</li>
+					</ul>
+				</div>
+
+				<h3>Colors</h3>
+				<div class="box left">
+				<ul>
+					<li>#00a995 	TURQUOISE LIGHT</li>
+					<li>#00746b 	TURQUOISE DARK</li>
+					<li>#b5dad7 	TURQUOISE/BLUE LIGHT BACKGROUND COLOR</li>
+					<li>#ffffff 		WHITE</li>
+					<li>#151515 	DARK (BLACK)</li>
+				</ul>
+				</div>
+
+				<h3></h3>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div id="task6">
+				<h3>6. Content</h3>
+				<p>The content uses 7 unique pages with a few additional sub-pages. Some pages utilize a similar layout.</p>
+
+				<h3>Front Page</h3>
+				<div class="box left">
+				<p>The front page will be the first page the user visits. It will contain useful information regarding the team’s achievements or changes to the roosters, games or anything of significance. It will also give a quick and easy way to see what team members are streaming online. </p>
+				<p>The homepage will fulfil the goal of informing the audience about the organization, upcoming new and generate promotion for its active players. With the use of JavaScript we will keep the homepage clean and simple to give a quality look and be easy on the eye. By clicking on an article, it will expand to its full size. It will also fulfil the goal of giving the audience a means of communication with the team by clicking on links at the bottom.</p>
+				<p>At the top, it will be a rotating box using JavaScript so the user can switch news at his own liking. </p>
+				<img src="images/frontpage.jpg" alt="Frontpage mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div class="">
+				<h3>About</h3>
+				<div class="box left">
+				<p>The “About Us” page contains general information about the organization. This includes a description of early history, a summary of achievements and a short description of what the organization aims to achieve. Additionally the page will have links to official social media.</p>
+				<p>This page exists to introduce the organization and try to make visitors to empathize with the different teams within. The page will achieve this by including great moments from the past as well as including visitor in on their aspirations. Links to social media is included to hook the players in to a form of community.</p>
+				<p>Content will be in the centre of the page with a navigation bar on the right side. The navigation bar contains subsections of the page; the transition between subpages will be done with javascript.</p>
+				<p>Pictures relating to the organization will be added to break up the text and to make the page easier to digest. The pictures will be small in size to optimize page loading.</p>
+				<img src="images/about.jpg" alt="About page mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<section class="document">
+		<div class="wrap">
+			<div class="">
+				<h3>Team</h3>
+				<div class="box left">
+				<p>The team/games page will show the user what games the team currently has players in, as well as the players for each of the games. It has it's own navigation bar under the one that is shared between the pages, containing all the games. When you click one of the games, all the players playing this game will be displayed below. All the player images will send you to that player's page. The player images is lined up horizontally.</p>
+				<p>We took inspiration from TeamLiquid's layout, and borrowed placeholder pictures from their page <a id="teamlink" href="http://www.teamliquidpro.com/players">found here</a></p>
+				<img src="images/team.jpg" alt="Team page mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div class="">
+				<h3>Player</h3>
+				<div class="box left">
+				<p>The player page, is opened when the user selects a player on the teams/members –page. There is one page for each individual team member.</p>
+				<p>This page contains, the player’s nickname, an image of the player, his/her real name, age, country of origin, and a witty quote. It also contains links to the team member’s various social media pages, as well as a donate button. There will be a link the player’s stream if he/she has one.</p>
+				<p>The purpose of this page is to provide basic information about who this team member is, with focus on gaming achievements and to induce an interest in learning more. It should also produce some extra income to the player through donations. Users, who wish to know more, can then easily find more information through the social media links.</p>
+				<img src="images/player.jpg" alt="Player page mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div class="">
+				<h3>Sponsors</h3>
+				<div class="box left">
+				<p>The sponsors page will inform the users who is sponsoring the team. It also contains a little bit of information about the sponsors, and where to learn more about them.</p>
+				<p>Each sponsor will have their picture placed to the left on the screen, with a text box containing information about them to the right. The box on the right will also contain some method of finding out more about the sponsor.</p>
+				
+				<img src="images/sponsors.jpg" alt="Sponsors page mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div class="">
+				<h3>Shop</h3>
+				<div class="box left">
+				<p>This page opens when the user presses the shop link in the navigation bar.</p>
+				<p>The page contains images of various merchandise as well as an order button. Clicking on a product displays a drop-down menu where the user can chose how many they wish to order of that item. Hovering over a product displays a box with additional product information. There is also an order button, which links to the order form.</p>
+				<p>The purpose is to quickly display the organizations merchandise, and entice the user to order some of it.</p>
+				<img src="images/shop.jpg" alt="Shop mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div class="">
+				<h3>Contact</h3>
+				<div class="box left">
+				<p>The “Contact Us” page will include information about how to get in touch with the organization. It will have the mail and phone number to get in touch with us. We will limit the use of text on this page as the focus is on the information present. By pressing the mail button you will be redirected to a page where you can write a mail to us.</p>
+				<img src="images/contact.jpg" alt="Contact page mockup">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="document">
+		<div class="wrap">
+			<div id="task7">
+				<h3>7. Javascript</h3>
+				<div class="box left">
+					<ul>
+						<h4>Drop down menu, Martin:</h4>
+						<li>Will dynamically display the sub pages of each main page listed in the navigation bar when the mouse is hovering over it. This is done to reduce the number of clicks required by the user.</li>
+						<h4>Switch games, Sondre:</h4>
+						<li>Exchange the players currently viewed will change to the game of choice. This is done to reduce loading times.</li>
+						<h4>Featured page/area, Embrik:</h4>
+						<li>To inform the user about sales in the shop, big events coming up, news about the games/players for the team, big announcements and other similar information. This is to show the user what is relevant and important right now.</li>
+						<h4>Drop down article, Sondre:</h4>
+						<li>Load the article on the page you currently is at to show it, instead of going to a new page. Done do reduce loading time and waiting for the user.</li>
+						<h4>Shop: item information, Espen:</h4>
+						<li>Displays information about the item when hovering over a question mark box. Done to inform the user of the specs of the item.</li>
+						<h4>Check legal values for shopping list/order, Olav:</h4>
+						<li>Tells the user if the input to the shopping list/order list is wrong. Done so that non-legal input does not go through to the order, e.g. resulting in errors in delivery of the products.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="document">
+		<div class="wrap">
+			<div id="task8">
+				<h3>8. Plan</h3>
+				<div class="box left">
+				<h4>Folder Structure inside Main Folder</h4>
+				<ul>
+					<li>Folder: pages/
+					<ul>
+						<li>index.html:</li>
+						<li>about.html</li>
+						<li>teams.html:  
+						<ul>
+							<li>player1.html</li>
+							<li>player2.html</li>
+							<li>playerN.html</li>
+						</ul>
+						</li>
+						<li>sponsors.html</li>
+						<li>shop.html
+						<ul>
+							<li>shopselect.html</li>
+						</ul>
+						</li>
+						<li>contact.html</li>
+					</ul>
+					</li>
+					<li>Folder: style/
+					<ul>
+						<li>style.css</li>
+					</ul>
+					</li>
+					<li>Folder: images/
+						<ul>
+							<li>headerpic1.png</li>
+							<li>headerpic2.png</li>
+							<li>logo.png</li>
+							<li>newspic.png</li>
+							<li>newspic2.png</li>
+							<li>newspicN.png</li>
+							<li>game1.png</li>
+							<li>gameN.png</li>
+							<li>shop.png</li>
+							<li>product1.png</li>
+							<li>poduct2.png</li>
+							<li>productN.png</li>
+						</ul>
+
+					</li>
+					<li>Folder: scripts/
+					<ul>
+						<li>dropdownmenu.js</li>
+						<li>switchgame.js</li>
+						<li>pagearea.js</li>
+						<li>dropdownart.js</li>
+						<li>shopitem.js</li>
+						<li>shopvalidation.js</li>
+					</ul>
+					</li>
+					<li></li>
+				</ul>
+				</div>
+				<h3>Schedule</h3>
+				<div class="box left">
+
+					<p>HTML and CSS: Until 1/11-2015</p>
+					<p>JavaScript: Until 7/11-2015</p>
+					<p>Testing and tweaks: Until 16/11-2015</p>
+
+					<div id="uglytable">
+						<table width="604" cellpadding="7" cellspacing="0" style="page-break-before: always">
+<col width="144">
+<col width="140">
+<col width="131">
+<col width="132">
+<tr valign="top">
+<td width="144" style="border: 1px solid ‪#‎00000a‬; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">index.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">The Homepage</span></p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Martin</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">26.10.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">about.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Info about organization </span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Sondre</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">26.10.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">teams.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Games/Teams overview. Access to player pages
+</span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Embrik</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">26.10.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Player#.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Individual player information </span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Espen</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">26.10.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">sponsors.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Short description of sponsors with links to
+their webpages.</span></p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Olav</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">26.10.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">shop.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Product overview</span></p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Olav</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">01.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">shopselect.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Order and shipping details</span></p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Martin</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">01.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">contact.html</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">The organizations official contact
+information </span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Embrik</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">01.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">style.css</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Stylesheet for the entire website</span></p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Espen</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">01.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">dropdowndenu.js</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">JavaScript for dropdown menus when hovered
+over. </span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Martin</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">05.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">switchsame.js</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p style="margin-bottom: 0in"><span lang="en-GB">JavaScript for
+changing between different games on the same html doc.</span></p>
+<p lang="en-GB"><br>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Sondre</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">05.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">pagearea.js</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p style="margin-bottom: 0in"><span lang="en-GB">JavaScript for
+changing between news stories on user prompt.</span></p>
+<p> 
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Embrik</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">05.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">dropdownart.js</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">JavaScript for expanding a newsbox when
+prompted by user </span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Sondre</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">05.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">shopitem.js</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">JavaScript for displaying product
+information on hover</span></p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Espen</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">05.11.15</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="144" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">shopvalidation.js</span></p>
+</td>
+<td width="140" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">JavaScript confirming if user input in
+shopping list/order is in/-valid </span>
+</p>
+</td>
+<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">Olav</span></p>
+</td>
+<td width="132" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+<p><span lang="en-GB">07.11.15</span></p>
+</td>
+</tr>
+</table>
+					</div>
+
+
+				</div>
+			</div>
+			<h3><a href="p1_requirements.html">Previous</a>|</h3><h3>|<a href="p3_changes.html">Next</a></h3>
+			<div class="box left">
+				<nav>
+					<a href="#task1">Task 1</a>
+					<a href="#task2">Task 2</a>
+					<a href="#task3">Task 3</a>
+					<a href="#task4">Task 4</a>
+					<a href="#task5">Task 5</a>
+					<a href="#task6">Task 6</a>
+					<a href="#task7">Task 7</a>
+					<a href="#task8">Task 8</a>
+				</nav>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="wrap">
+
+			<div class="left">
+				<h3 class="name">Espen Dammen</h3>
+				<nav>
+					<a href="../../index.html">Home</a>
+					<a href="../../index.html#assignments">Assignments</a>
+					<a href="../../index.html#project">Project</a>
+					<a href="#contact">Contact</a>
+				</nav>
+				<h4 id="copyright">Copyright <span>©2015</span> All rights reserved</h4>
+			</div>
+
+			<div id="contact">
+
+<a href="mailto:espendam@stud.ntnu.no"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+<path id="email-10-icon" d="M256,90c44.34,0,86.026,17.267,117.38,48.62S422,211.659,422,256c0,44.34-17.267,86.026-48.62,117.38
+
+	C342.026,404.732,300.34,422,256,422s-86.026-17.268-117.38-48.62C107.267,342.026,90,300.34,90,256
+
+	c0-44.341,17.267-86.026,48.62-117.38S211.66,90,256,90 M256,50C142.229,50,50,142.229,50,256s92.229,206,206,206
+
+	s206-92.229,206-206S369.771,50,256,50L256,50z M232.759,241.081 M213.419,248.356l-61.479-47.225v108.702L213.419,248.356z
+
+	 M361.514,179.178h-208.85l104.342,80.152L361.514,179.178z M286.252,259.396l-29.255,22.437l-29.303-22.508l-75.498,75.498H361.68
+
+	L286.252,259.396z M300.538,248.438l61.522,61.522V201.254L300.538,248.438z"/>
+</svg></a>
+<a target="_blank" href="https://www.facebook.com/espendamz">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+<path id="facebook-circle-outline-icon" d="M256.417,90c44.34,0,86.026,17.267,117.38,48.62c31.354,31.354,48.62,73.04,48.62,117.38
+
+	c0,44.34-17.267,86.026-48.62,117.38c-31.354,31.353-73.04,48.62-117.38,48.62s-86.026-17.268-117.38-48.62
+
+	c-31.354-31.354-48.62-73.04-48.62-117.38c0-44.34,17.267-86.026,48.62-117.38C170.391,107.267,212.077,90,256.417,90 M256.417,50
+
+	c-113.771,0-206,92.229-206,206s92.229,206,206,206s206-92.229,206-206S370.188,50,256.417,50L256.417,50z M228.111,218.133h-23.517
+
+	v38.386h23.517v112.764h45.22V256.04h31.551l3.358-37.907h-34.909c0,0,0-14.155,0-21.593c0-8.938,1.801-12.477,10.438-12.477
+
+	c6.957,0,24.471,0,24.471,0v-39.347c0,0-25.797,0-31.309,0c-33.649,0-48.82,14.814-48.82,43.186
+
+	C228.111,212.614,228.111,218.133,228.111,218.133z"/>
+</svg></a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
