@@ -47,18 +47,18 @@
 			</div>
 			<div class="beside">
 				<img src="../../images/PerKristian.jpg" alt="Per Kristian">
-				<form class="form" action="mailto:perkristian@norhernwave.com" method="post" enctype="text/plain">
+				<form name="producerForm" class="form" action="mailto:perkristian@norhernwave.com" method="POST" enctype="text/plain" onsubmit="return formValidation()">
 					<div class="row">
 						<h3>Contact Per Kristian:</h3>
 						<label for="name">Your name:</label><br />
-						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+						<input id="name" class="input" name="name" type="text" size="24" /><br />
 					</div>
 					<div class="row">
 						<label for="email">E-mail:</label><br />
-						<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+						<input id="email" class="input" name="email" type="text" size="24" /><br />
 					</div>
 					<div>
-						<input type="radio" name="chooseone" value="RUSS"><label for = "RUSS"> Song for your buss </label> <br />
+						<input type="radio" name="chooseone" value="RUSS"><label for = "RUSS" > Song for your buss </label> <br />
 						<input type="radio" name="chooseone" value="LESS"><label for="LESS"> Private Lesson </label> <br />
 						<input type="radio" name="chooseone" value="INTRO"><label for = "INTRO"> Introduction </label><br />
 						<input type="radio" name="chooseone" value="OTHER"><label for="OTHER"> Other </label><br>
@@ -78,6 +78,8 @@
 	<footer class="footer">
 		<p>Contact us | Northern Wave</p>
 	</footer>
+
+	<script type="text/javascript" src="../../scripts/formValidation.js"></script>
 
 </body>
 </html>
