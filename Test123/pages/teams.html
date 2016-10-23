@@ -1,0 +1,70 @@
+<!--
+FILE NAME: pages/about.html
+WRITTEN BY: Sondre Steinsland Hegdal
+WHEN: October 2015
+PURPOSE: View the games the team has players in, as well as having links for each player's personal page. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--Head of the page, loading style, scripts and icon, as well as setting the title-->
+<head>
+	<title>Teams</title>
+	<link href="../style/style.css" rel="stylesheet">
+	<script type="text/javascript" src="../scripts/header_footer.js"></script>
+	<script type="text/javascript" src="../scripts/pagearea_game.js"></script>
+	<link rel="shortcut icon" href="../images/tabicon.ico">
+</head>
+<body>
+	<!--Initializing header-->
+	<header id="page_header"></header>
+
+	<!--Navigation bar for choosing the players of what game should be visible on the page-->
+	<div id="game_chooser">
+		<div class="container" id="games">
+			<p class="nav_structure" style="color: #b5dad7; padding-top: 5px;"><a href="index.html">News</a> > <a href="">Team</a></p>
+		</div>
+		<div class="container">
+			<div id="games_nav" class="flex-wrap" style="background: #inherit;">
+				<div id="sc2_b" class="col-50 games_button"><img src="../images/sc2.png"></div>
+				<div id="hs_b" class="col-50 games_button"><img src="../images/hs.png"></div>
+			</div>
+		</div>
+	</div>
+
+	<!--Main container for the content of the page-->
+	<div class="container flex" id="players">
+				<!--Content for player 1-->
+				<a class="col-50" id="player1" href="players/player1.html">
+				<div class="player">
+					<p><img src="../images/pontius1.jpg" class="team-image"></p>
+					<p>Pontius</p>
+				</div>
+				</a>
+
+				<!--Content for player 2-->
+				<a class="col-50" id="player2" href="players/player2.html">
+				<div class="player">
+					<p><img src="../images/Araneae1.jpg" class="team-image"></p>
+					<p>Araneae</p>
+				</div>
+				</a>
+				<!--Content for player 3-->
+				<a class="col-50" id="player3" href="players/player3.html">
+				<div class="player">
+					<p><img src="../images/damz1.jpg" class="team-image"></p>
+					<p>Damz</p>
+				</div>
+				</a>
+				<!--Content for player 4-->
+				<a class="col-50" id="player4" href="players/player4.html">
+				<div class="player">
+					<p><img src="../images/valoss1.jpg" class="team-image"></p>
+					<p>Valoss</p>
+				</div>
+				</a>
+	</div>
+	<!--Initializing footer-->
+	<footer id = "page_footer">	</footer>
+</body>
+</html>
