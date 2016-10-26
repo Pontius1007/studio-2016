@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3549c8de-6deb-4b1e-ac22-b16e23ed971a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/scripts/formValidation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/scripts/header_footer.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Torje.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Vegard.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/index.html" afterPath="$PROJECT_DIR$/studio-2016/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Espen.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/Espen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/PerKristian.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/PerKristian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Steffen.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/Steffen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/style/style.css" afterPath="$PROJECT_DIR$/studio-2016/style/style.css" />
-    </list>
+    <list default="true" id="3549c8de-6deb-4b1e-ac22-b16e23ed971a" name="Default" comment="" />
     <ignored path="studio-2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
