@@ -19,6 +19,22 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+/*wrapper for index*/
+.wrapperindex {
+	width: 100%;
+	margin: auto;
+}
+
+.wrapperindex {
+	flex: 1;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	padding: 0px 10px 40px 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
 
 .header {
 	position: fixed;
@@ -342,3 +358,84 @@ body {
 	margin: auto;
 	margin-top: 20px;
 }	
+
+/*slideshow in index*/
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.featured {
+	background: url("../images/tynnebilder6.jpg") center center;
+	height: 500px;
+	position: relative;
+	background-size: cover;
+	-webkit-transition: background-image 0.4s ease-in-out;
+	-webkit-transition: background-image 0.4s ease-in-out;
+    -moz-transition: background-image 0.4s ease-in-out;
+    -o-transition: background-image 0.4s ease-in-out;
+    -ms-transition: background-image 0.4s ease-in-out;
+    transition: background-image 0.4s ease-in-out;
+}
+
+.featured-headline {
+	display: block;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	padding: 20px 0;
+}
+
+.featured-headline h2 {
+	font-size: 30px;
+	color: #FFFFFF;
+	display: inline;
+}
+
+.featured-headline .container {
+	position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
