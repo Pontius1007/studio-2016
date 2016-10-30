@@ -389,27 +389,24 @@ body {
 
 /*Prices*/
 
-.prices-box{
-	width: 100%;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.price-element{
-	width: 70%;
-	margin: auto;
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
-.price-name {
-	width: 450px;
-	float: left;
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
-.price-number {
-	width: 130px;
-	float: left;
-}
-
-.prices.box p {
-	color: #4c4f54;
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
 }
 
 .button {
