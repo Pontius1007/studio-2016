@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /* 
 * <<<<<<<		Table of Contents		>>>>>>>
 *
@@ -20,6 +23,14 @@
 
 /* 1. BODY, CONTENT, HTML and H1, H2, H3, H4, H5, H6 */
 
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+html p {
+	font-size: 14px;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -28,6 +39,28 @@ body {
 	margin: 0;
 	min-width: 240px;
 	background-image: url("../images/symphony.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+}
+
+/* Using relative font-size to body (rem) */
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+	font-weight: 300;
 }
 
 .wrapper {
@@ -124,6 +157,7 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 	align-items: center;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .nav-bar > .tab {
