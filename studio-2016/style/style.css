@@ -1,3 +1,25 @@
+/* 
+* <<<<<<<		Table of Contents		>>>>>>>
+*
+*1. BODY, CONTENT, HTML and H1, H2, H3, H4, H5, H6
+*2. WRAPPER INDEX
+*3. HEADER
+*4. FOOTER
+*5. NAV-BAR
+*6. LESSONS
+*7. WHO-ARE-WE
+*8. PRODUCERS-LIST
+*9. INFORMATION
+*10. STUDIO
+*11. PRODUCERS
+*12. PRICES
+*13. INDEX-SLIDESHOW
+*/
+
+
+
+/* 1. BODY, CONTENT, HTML and H1, H2, H3, H4, H5, H6 */
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -7,61 +29,6 @@ body {
 	min-width: 240px;
 	background-image: url("../images/symphony.png");
 }
-
-
-/* MAIN STRUCTURE AND FLEX - Dette er en kopi*/
-.container {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-.flex {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.flex-wrap {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	    -ms-flex-wrap: wrap;
-	        flex-wrap: wrap;
-}
-
-.flex-footer {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.center {
-	-webkit-justify-content: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-}
-
-.space-around {
-	-webkit-justify-content: space-around;
-	    -ms-flex-pack: distribute;
-	        justify-content: space-around;
-}
-
-.space-between {
-	-webkit-justify-content: space-between;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
-}
-
-.vertical-center {
-	-webkit-align-items: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-}
-
-/** END MAIN STRUCTURE AND TEXT **/
-
 
 .wrapper {
 	flex: 1;
@@ -74,7 +41,7 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-/*wrapper for index*/
+/*2. WRAPPER INDEX*/
 
 .wrapperindex {
 	flex: 1;
@@ -87,11 +54,7 @@ body {
 	flex-direction: column;
 }
 
-.indexcontent {
-	flex: 1;
-	max-width: 860px;
-	margin: auto;
-}
+/*3. HEADER */
 
 .header {
 	position: fixed;
@@ -100,7 +63,7 @@ body {
 	flex-wrap: wrap;
 	top: 0;
 	left: 0;
-	background-color: black; /** Endret fra #a03033 **/
+	background-color: black; /* Endret fra #a03033 */
 	z-index: 1;
 	display: flex;
 	align-items: center;
@@ -125,6 +88,14 @@ body {
 	margin-left: 10px;
 }
 
+.header-link {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* 4. FOOTER */
+
 .footer {
 	position: fixed;
 	width: 100%;
@@ -142,7 +113,7 @@ body {
 	color: white;
 }
 
-/** 14. Nav-Bar */
+/* 5. NAV-BAR */
 
 .nav-bar {
 	display: flex;
@@ -179,7 +150,7 @@ body {
 	width: 50px;
 }
 
-/**Product bar**/
+/* 6. LESSONS */
 
 .product-bar {
 	display: flex;
@@ -209,11 +180,8 @@ body {
 	color: #4c4f54;
 }
 
-/** END PRODUCT BAR**/
-
-
-/*who are we*/
-.who-box {
+/* 7. WHO-ARE-WE */
+.who-box { 
 	margin: auto;
 	width: 860px;
 	display: block;
@@ -237,23 +205,28 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-/*end who are we*/
 
-/*producers-list*/
+/* 8. PRODUCERS-LIST */
 .producers {
+	display: flex;
 	width: 100%;
-	display: block;
-	float: left
+	box-sizing: border-box;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 15px;
 }
 
 .producer-box {
 	float: left;
-	width: 400px;
-	height: 220px;
+	min-width: 15%;
+	width: 33%;
+	max-width: 220px;
+	height: 30%;
 	border-width: 2px;
 	border-color: #000000;
 	margin-bottom: 5px;
 	margin-left: 10px;
+	word-wrap: break-word;
 }
 
 .producer-box .producer-pic {
@@ -266,23 +239,17 @@ body {
 .producers p {
 	color: #4c4f54;
 }
-/*end producer-list*/
 
-.header-link {
-	text-decoration: none;
-	color: white;
+.producer-box img {
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
 }
 
-.main-page-pic img { /**Må endres til å bli responsivt senere**/
-	height: 430px;
-	width: 100%;
-	top: -25px;
-	position: relative;
-}
 
-/**INFORMATION**/
+/* 9. INFORMATION */
 .information-box {
-	width: 600px;
+	width: 600px;	
 	margin: auto;
 	border-bottom: solid;
 	border-width: 2px;
@@ -323,9 +290,8 @@ body {
 .black-link {
 	color: #4c4f54;
 }
-/*end INFORMATION*/
 
-/*Studio*/
+/* 10. STUDIO */
 .studio {
 	width: 100%
 }
@@ -363,7 +329,7 @@ body {
 	margin-right: auto;
 }
 
-/*Producers*/
+/* 11. PRODUCERS */
 .prodtekst {
     width: 100%
 }
@@ -387,7 +353,7 @@ body {
     margin-left: 2px;
 }
 
-/*Prices*/
+/* 12. PRICES */
 
 table {
     font-family: arial, sans-serif;
@@ -415,7 +381,7 @@ tr:nth-child(odd) {
 	margin-top: 20px;
 }	
 
-/*slideshow in index*/
+/* 13. INDEX SLIDESHOW */
 
 .container {
 	max-width: 960px;
