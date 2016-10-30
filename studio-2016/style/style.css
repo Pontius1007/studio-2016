@@ -242,7 +242,7 @@ h6 small {
 
 /* 8. PRODUCERS-LIST */
 .producers {
-	display: flex;
+	display: block;
 	width: 100%;
 	box-sizing: border-box;
 	justify-content: space-around;
@@ -250,15 +250,16 @@ h6 small {
 }
 
 .producer-box {
-	min-width: 15%;
-	width: 33%;
-	max-width: 220px;
+	float: left;
+	min-width: 150px;
+	width: 30%;
 	height: 30%;
 	border-width: 2px;
 	border-color: #000000;
 	margin-bottom: 5px;
 	margin-left: 10px;
 	word-wrap: break-word;
+	overflow: auto;
 }
 
 .producer-box .producer-pic {
