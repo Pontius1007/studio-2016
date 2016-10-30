@@ -85,7 +85,7 @@ h6 small {
 	height: auto;
 	margin: auto;
 	position: relative;
-	padding: 0 0 0 0;
+	padding: 0 0 40px 0;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -102,9 +102,6 @@ h6 small {
 	background-color: black; /* Endret fra #a03033 */
 	z-index: 1;
 	align-items: center;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox */
-    box-sizing: border-box;
 }
 
 .header-p {
