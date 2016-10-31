@@ -85,7 +85,7 @@ h6 small {
 	min-height: 100%;
 	position: relative;
 	padding: 0 0 60px 0;
-	margin-top: -70px;
+	margin-top: -40px;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -224,7 +224,8 @@ h6 small {
 
 /* 7. WHO-ARE-WE */
 .who-box { 
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 860px;
 	display: block;
 	align-items: center;
@@ -506,5 +507,6 @@ tr:nth-child(odd) {
 }
 
 .equipment-header {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto; 
 }
