@@ -17,6 +17,7 @@
 *11. PRODUCERS
 *12. PRICES
 *13. INDEX-SLIDESHOW
+*14. Equipment
 */
 
 
@@ -68,7 +69,7 @@ h6 small {
 	flex: 1;
 	width: 100%;
 	min-width: 800px;
-	max-width: 960px;
+	max-width: 860px;
 	margin: auto;
 	position: relative;
 	padding: 50px 10px 40px 10px;
@@ -81,11 +82,10 @@ h6 small {
 .wrapperindex {
 	flex: 1;
 	width: 100%;
-	min-height: 100%
-	height: auto;
-	margin: auto;
+	min-height: 100%;
 	position: relative;
 	padding: 0 0 60px 0;
+	margin-top: -70px;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -120,6 +120,9 @@ h6 small {
 	height: 25px; 
 	width: 30px;
 	margin-left: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: #FFFFFF
 }
 
 .header-link {
@@ -197,7 +200,6 @@ h6 small {
 	width: 100%;
 	box-sizing: border-box;
 	justify-content: space-around;
-	align-items: center;
 }
 
 .product-bar > .product {
@@ -252,7 +254,6 @@ h6 small {
 	width: auto;
 	box-sizing: border-box;
 	justify-content: space-around;
-	padding-top: 15px;
 	align-items: center;
 }
 
@@ -330,11 +331,10 @@ h6 small {
 	width: 100%
 }
 .studio img{
-	width: auto;
+	width: 100%	;
 	max-width: 860px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 .studio .leftbox {
 	float: left;
@@ -387,10 +387,13 @@ h6 small {
     margin-left: 2px;
 }
 
+.input {
+	width: 97%;
+}
+
 /* 12. PRICES */
 
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -494,4 +497,14 @@ tr:nth-child(odd) {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* 14. EQUIPMENT */
+
+.equipment-second-header {
+	height: 55px;
+}
+
+.equipment-header {
+	margin: auto;
 }

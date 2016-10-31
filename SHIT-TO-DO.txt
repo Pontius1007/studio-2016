@@ -1,9 +1,9 @@
 Ting som må gjøres:
 
-1. Responsivitet på alle sider. 
+1. Responsivitet på alle sider. CHECK
 2. Skrive studio.html
-3. Fikse linker på lessons
-4. Injecte Header, Footer, og navbar på alle sider
+3. Fikse linker på lessons CHECK
+4. Injecte Header, Footer, og navbar på alle sider CHECK
 5. Skrive P4 - Nesten ferdig
 6. Skrive P3
 7. Fikse Font på sider. - CHECK
