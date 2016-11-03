@@ -4,6 +4,7 @@ Ting som må gjøres:
 2. Skrive studio.html
 3. Fikse linker på lessons CHECK
 4. Injecte Header, Footer, og navbar på alle sider CHECK - Mangler Dropdown
+	- FŒr ikke kj¿rt js for dropdownlisten igjennom innerHTML i header_footer.js sammen med koden for navbaren. Hvordan gj¿re dette? Evt. kan det l¿ses annerledes?
 5. Skrive P4 - Nesten ferdig
 6. Skrive P3
 7. Fikse Font på sider. - CHECK
