@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		var h_div = document.createElement("div");
 		h_div.className = "header";
 		h_div.innerHTML = "<div class=\"header-p\"><a class=\"header-link\" href=\"index.html\">NORTHERN WAVE</a></div><div class=\"social\"><!-- Social icons --><a href=\"https://www.facebook.com\"><img src=\"../images/facebook.png\"></a><a href=\"https://twitter.com\"><img src=\"../images/twitter.png\"></a><a href=\"https://www.youtube.com\"><img src=\"../images/youtube.png\"></a></div>\";";
-		elements.header.appendChild(h_div);	
+		elements.header.appendChild(h_div);
 	}
 	if (elements.navbar) {
 		var n_div = document.createElement("div");
@@ -24,3 +24,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		elements.footer.appendChild(f_div);	
 	}
 })
+//Funksjon som skal sette visibilty til hidden/true til header, men får ikke tak i rett element. Logger til console for test purposes
+window.onscroll = function(event) {
+    var yPos = pageYOffset;
+    console.log(yPos); //14
+    if(yPos < 12.6){
+        document.getElementById("header").style.visibility = "visible";
+        console.log("Setting visibility to true")
+    }
+    else{
+        document.getElementById("header").style.visibility = "hidden"; 
+        console.log("Setting visibility to false");
+    }
+}
