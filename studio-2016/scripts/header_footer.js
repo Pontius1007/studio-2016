@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		var n_div = document.createElement("div");
 		n_div.className = "nav-bar";
 
-		n_div.innerHTML = "<a href=\"index/information.html\" class=\"tab\">Information</a><!--<div class=\"dropdown\"><button onclick=\"myFunction()\" class=\"dropbtn\">Studio</button><div id=\"myDropdown\" class=\"dropdown-content\">--><a href=\"studio.html\" class=\"tab\">Studio</a><!--<a href=\"studio/equipment.html\" class=\"tab\">Equipment</a></div>--></div><a href=\"who-are-we.html\" class=\"tab\">Who are we</a><a href=\"index.html\" class=\"tab img\"></a><a href=\"producers.html\" class=\"tab\">Producers</a><a href=\"lessons.html\" class=\"tab\">Lessons</a><a href=\"prices.html\" class=\"tab\">Price</a>";
+		n_div.innerHTML = "<a href=\"index/information.html\" class=\"tab\">Information</a><div class=\"dropdown\"><button onclick=\"myFunction()\" class=\"dropbtn\">Studio</button><div id=\"myDropdown\" class=\"dropdown-content\"><a href=\"studio.html\">Studio</a><a href=\"studio/equipment.html\">Equipment</a></div></div><a href=\"who-are-we.html\" class=\"tab\">Who are we</a><a href=\"index.html\" class=\"tab img\"></a><a href=\"producers.html\" class=\"tab\">Producers</a><a href=\"lessons.html\" class=\"tab\">Lessons</a><a href=\"prices.html\" class=\"tab\">Price</a>";
 		elements.navbar.appendChild(n_div);	
 	}
 	if (elements.footer) {
