@@ -95,7 +95,7 @@ h6 small {
 
 .header {
 	left: 0;
-	min-width: 314px;
+	min-width: 350px;
 	width: 100%;
 	position: fixed;
 	height: 53px;
@@ -120,9 +120,9 @@ h6 small {
 	height: 25px; 
 	width: 30px;
 	margin-left: 10px;
-	border: solid;
+	/*border: solid;
 	border-width: 1px;
-	border-color: #FFFFFF
+	border-color: #FFFFFF*/
 }
 
 .header-link {
