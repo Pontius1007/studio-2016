@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3549c8de-6deb-4b1e-ac22-b16e23ed971a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14074948_10153993613654773_200096922_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14075009_10154974695675329_1055395984_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14087451_10154974695455329_1592596132_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14087492_10154974695620329_720548517_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14087564_10154974695555329_732289668_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14087638_10154974695350329_206384382_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14087654_10154974695705329_419242346_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14113821_10154974695550329_1739242211_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/NW/Bilder_fra_NW/14113908_10154974695375329_284617029_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/TMlive.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/Torje.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/Vegard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/arrow-icon-L-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/arrow-icon-R-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/chilloutplass.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/prosess1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/prosess2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/prosess3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/prosess4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/questionaires/q8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/test.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/tynn som ei flis.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/tynnebilder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/tynnebilder3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/tynnebilder5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p4_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/Git.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/images/twitter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/pages/contact-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studio-2016/scripts/animated_header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gammelt-prosjekt/p4_test.html" afterPath="$PROJECT_DIR$/Gammelt-prosjekt/p4_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/index.html" afterPath="$PROJECT_DIR$/studio-2016/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/index/information.html" afterPath="$PROJECT_DIR$/studio-2016/pages/index/information.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/lessons.html" afterPath="$PROJECT_DIR$/studio-2016/pages/lessons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/prices.html" afterPath="$PROJECT_DIR$/studio-2016/pages/prices.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Espen.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/Espen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/PerKristian.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/PerKristian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Steffen.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/Steffen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/studio.html" afterPath="$PROJECT_DIR$/studio-2016/pages/studio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/studio/equipment.html" afterPath="$PROJECT_DIR$/studio-2016/pages/studio/equipment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/who-are-we.html" afterPath="$PROJECT_DIR$/studio-2016/pages/who-are-we.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/scripts/dropdown-studio.js" afterPath="$PROJECT_DIR$/studio-2016/scripts/dropdown-studio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/scripts/formValidation.js" afterPath="$PROJECT_DIR$/studio-2016/scripts/formValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/scripts/header_footer.js" afterPath="$PROJECT_DIR$/studio-2016/scripts/header_footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/style/style.css" afterPath="$PROJECT_DIR$/studio-2016/style/style.css" />
-    </list>
+    <list default="true" id="3549c8de-6deb-4b1e-ac22-b16e23ed971a" name="Default" comment="" />
     <ignored path="studio-2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -87,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studio-2016/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="806">
@@ -107,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/studio-2016/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="225">
               <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
@@ -406,9 +350,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2527763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2527763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -526,18 +470,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studio-2016/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studio-2016/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
           <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studio-2016/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
