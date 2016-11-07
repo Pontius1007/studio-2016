@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	if (elements.header) {
 		var h_div = document.createElement("div");
 		h_div.className = "header";
+        h_div.id ="headerID";
 		h_div.innerHTML = "<div class=\"header-p\"><a class=\"header-link\" href=\"index.html\">NORTHERN WAVE</a></div><div class=\"social\"><!-- Social icons --><a href=\"https://www.facebook.com\"><img src=\"../images/facebook.png\"></a><a href=\"https://twitter.com\"><img src=\"../images/twitter.png\"></a><a href=\"https://www.youtube.com\"><img src=\"../images/youtube.png\"></a></div>\";";
 		elements.header.appendChild(h_div);	
 	}
@@ -48,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	if (elementsfolder.headerf) {
 		var h_div = document.createElement("div");
 		h_div.className = "header";
+        h_div.id ="headerID";
 		h_div.innerHTML = "<div class=\"header-p\"><a class=\"header-link\" href=\"../index.html\">NORTHERN WAVE</a></div><div class=\"social\"><!-- Social icons --><a href=\"https://www.facebook.com\"><img src=\"../../images/facebook.png\"></a><a href=\"https://twitter.com\"><img src=\"../../images/twitter.png\"></a><a href=\"https://www.youtube.com\"><img src=\"../../images/youtube.png\"></a></div>\";";
 		elementsfolder.headerf.appendChild(h_div);	
 	}
