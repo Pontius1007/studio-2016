@@ -4,6 +4,7 @@ window.onscroll = function(event) {
     console.log(header); //14
     if(yPos < 12.6){
         header.style.visibility = "visible";
+        header.style.opacity = 1-(yPos/12.6);
         console.log("Setting visibility to true")
     }
     else{
