@@ -1,8 +1,0 @@
-Git kommandoa:
-
-Git clone url
-Git status
-Git add filnavn (-A)
-Git commit (-m "beskjed")
-Git push
-Git pull
