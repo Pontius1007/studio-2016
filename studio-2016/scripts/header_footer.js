@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		var f_div = document.createElement("div");
 		f_div.className = "footer";
 		//Lag link til contact us
-		f_div.innerHTML = "<p><a href=\"index/information.html\">Contact us<a> | Northern Wave</p>";
+		f_div.innerHTML = "<p><a class=\"header-link\" href=\"mailto:northernwave@gmail.com\">Contact us<a> | Northern Wave</p>";
 		elements.footer.appendChild(f_div);	
 	}
 	if (elementsfolder.headerf) {
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	if (elementsfolder.footerf) {
 		var f_div = document.createElement("div");
 		f_div.className = "footer";
-		f_div.innerHTML = "<p>Contact us | Northern Wave</p>";
+		f_div.innerHTML = "<p><a class=\"header-link\" href=\"mailto:northernwave@gmail.com\">Contact us<a> | Northern Wave</p>";
 		elementsfolder.footerf.appendChild(f_div);	
 	}
 })
