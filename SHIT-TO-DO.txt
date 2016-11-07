@@ -10,3 +10,5 @@ Ting som må gjøres:
 7. Fikse Font på sider. - CHECK
 8. Flytende header
 9. Kommentere all kode. 
+10. Contact us link
+11. Fikse steffen
