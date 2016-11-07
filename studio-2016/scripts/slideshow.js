@@ -1,9 +1,10 @@
 /*
 FILE NAME: scripts/slideshow.js
-WRITTEN BY: Alfred Rønning
+WRITTEN BY: Alfred Sollie Rønning
 WHEN: November 2016
 PURPOSE: Display a slideshow of images on the front page.
 */
+/* Inspired by http://www.w3schools.com/howto/howto_js_slideshow.asp */
 window.onload = function () {
 	/*List of image Id's*/
 	var FH0 = document.getElementById("FH0");

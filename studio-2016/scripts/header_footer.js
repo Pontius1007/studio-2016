@@ -1,6 +1,6 @@
 /*
 FILE NAME: scripts/header_footer.js
-WRITTEN BY: Sebastian Torgersen
+WRITTEN BY: Sebastian Torgersen, Embrik Einang, Anders Breivik, Alfred Sollie Rønning
 WHEN: November 2016
 PURPOSE: Inserts header, navbar and footer to all pages.
 */

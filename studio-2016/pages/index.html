@@ -1,3 +1,10 @@
+<!--
+FILE NAME: pages/index.html
+WRITTEN BY: Embrik Einang
+WHEN: September 2016
+PURPOSE: A nice looking indexpage.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,14 +18,19 @@
 	
 </head>
 <body>
+	<!-- Header inserted with javascript -->
 	<header id="header"></header>
+	<!-- Main container -->
 	<div class="wrapper">
 		<div class="content">
+		<!-- Navbar inserted with javascript -->
 			<nav id="navbar"></nav>
 		</div>
 	</div>
+	<!-- Extra container for the slideshow to avoid the maxwidth -->
 	<div class="wrapperindex">
 	    <div class="slide" id="featuredImage">
+	    	<!-- Three different containers that gets displayed with slideshow.js -->
 	        <div class="slideshow">
 	            <div class="container" id="FH0">
 	                <h2>Northern Wave</h2>
@@ -29,13 +41,13 @@
 	            <div class="container hide" id="FH2">
 	                <h2>The Recording Room</h2>
 	            </div>
-	            <!--Contains links for manual switching-->
 	        </div>
+	        <!-- Links for manually switching the image -->
 	        <a id="previousFeatured" class="prev">&#10094;</a>
 	        <a id="nextFeatured" class="next">&#10095;</a>
 	    </div>
-	</div>
-
+		</div>
+		<!-- Footer inserted with javascript -->
 	<footer id="footer"></footer>
 </body>
 </html>

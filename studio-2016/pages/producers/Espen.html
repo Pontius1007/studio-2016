@@ -1,3 +1,10 @@
+<!--
+FILE NAME: pages/producers/Espen.html
+WRITTEN BY: Sebastian Torgersen
+WHEN: October 2016
+PURPOSE: Display info about the producer, and make the user be able to contact him.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,14 +13,18 @@
 	<link rel="stylesheet" type="text/css" href="../../style/style.css">
 	<script type="text/javascript" src="../../scripts/header_footer.js"></script>
     <script type="text/javascript" src="../../scripts/animated_header.js"></script>
+	<script type="text/javascript" src="../../scripts/formValidation.js"></script>
 </head>
 <body>
+	<!-- Header inserted by javascript -->
 	<header id="headerf"></header>
-
+	<!-- Main container -->
 	<div class="wrapper">
 		<div class="content">
+			<!-- Navbar inserted by javascript -->
 			<nav id="navbarf"></nav>
 		</div>
+		<!-- Main div for text and form -->
 		<div class="prodtekst">
 			<div class="tekst">
 				<h1>Espen</h1>
@@ -28,6 +39,7 @@
 
 				<p>Cu wisi explicari eos, per cu oporteat forensibus. Per ea tation abhorreant. Pri sumo periculis efficiendi eu, his augue detracto ea. Mei eruditi sanctus ne, quidam vidisse ex duo. In nominavi scaevola eos, ea possit tritani omnesque sed, at vim atqui zril.</p>
 			</div>
+			<!-- Div for the picture and form -->
 			<div class="beside">
 				<img src="../../images/Espen.jpg" alt="Espen">
 				<form name="producerForm" class="form" action="mailto:espen@norhernwave.com" method="POST" enctype="text/plain" onsubmit="return formValidation()">
@@ -55,10 +67,8 @@
 			</div>
 		</div>
 	</div>
-
+	<!-- Footer inserted by javascript -->
 	<footer id="footerf"></footer>
-
-	<script type="text/javascript" src="../../scripts/formValidation.js"></script>
 
 </body>
 </html>
