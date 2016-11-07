@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var elements = {
 		header: document.getElementById("header"),
 		navbar: document.getElementById("navbar"),
+		footer: document.getElementById("footer"),
+	}
+	var elementsfolder = {
+		headerf: document.getElementById("headerf"),
+		navbarf: document.getElementById("navbarf"),
+		footerf: document.getElementById("footerf"),
 	}
 
 /* checks if the divs exist in the html, and adding the hml in.  */

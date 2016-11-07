@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3549c8de-6deb-4b1e-ac22-b16e23ed971a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/studio-2016/scripts/header_footer2.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/index.html" afterPath="$PROJECT_DIR$/studio-2016/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/scripts/slideshow.js" afterPath="$PROJECT_DIR$/studio-2016/scripts/slideshow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/style/style.css" afterPath="$PROJECT_DIR$/studio-2016/style/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gammelt-prosjekt/p4_test.html" afterPath="$PROJECT_DIR$/Gammelt-prosjekt/p4_test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/index/information.html" afterPath="$PROJECT_DIR$/studio-2016/pages/index/information.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Espen.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/Espen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/PerKristian.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/PerKristian.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/pages/producers/Steffen.html" afterPath="$PROJECT_DIR$/studio-2016/pages/producers/Steffen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/scripts/formValidation.js" afterPath="$PROJECT_DIR$/studio-2016/scripts/formValidation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio-2016/scripts/header_footer.js" afterPath="$PROJECT_DIR$/studio-2016/scripts/header_footer.js" />
     </list>
     <ignored path="studio-2016.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
