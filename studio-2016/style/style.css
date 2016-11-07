@@ -102,6 +102,7 @@ h6 small {
 	background-color: black; /* Endret fra #a03033 */
 	z-index: 1;
 	align-items: center;
+    visibility: visible;
 }
 
 .header-p {

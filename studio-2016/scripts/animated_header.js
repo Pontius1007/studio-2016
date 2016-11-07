@@ -1,11 +1,13 @@
-function yScroll(){
-    var pagetop = document.getElementById("headerID");
-    var yPos = window.pageYOffset;
-    console.log(yPos);
-    if(yPos > 4.5){
-        pagetop.style.visibility = "hidden";
+window.onscroll = function(event) {
+    var yPos = pageYOffset;
+    var header = document.getElementById("headerID");
+    console.log(header); //14
+    if(yPos < 12.6){
+        header.style.visibility = "visible";
+        console.log("Setting visibility to true")
     }
     else{
-        pagetop.style.visibility = "visible";
+        header.style.visibility = "hidden"; 
+        console.log("Setting visibility to false");
     }
 }
