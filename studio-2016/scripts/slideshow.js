@@ -1,8 +1,8 @@
 /*
-FILE NAME: slideshow.js
+FILE NAME: scripts/slideshow.js
 WRITTEN BY: Alfred Rønning
 WHEN: November 2016
-PURPOSE: Display display a slideshow of images on the front page.
+PURPOSE: Display a slideshow of images on the front page.
 */
 window.onload = function () {
 	/*List of image Id's*/
