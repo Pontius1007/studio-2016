@@ -11,16 +11,22 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		elements.header.appendChild(h_div);	
 	}
 	if (elements.navbar) {
+		var ddl_js = document.createElement("script");
+		ddl_js.className = "dropdown";
+		ddl_js.type = "text/javascript";
+		ddl_js.src = "..dropdown-studio.js";
+		elements.navbar.appendChild(ddl_js);
+
 		var n_div = document.createElement("div");
 		n_div.className = "nav-bar";
-
 		n_div.innerHTML = "<a href=\"index/information.html\" class=\"tab\">Information</a><div class=\"dropdown\"><button onclick=\"myFunction()\" class=\"dropbtn\">Studio</button><div id=\"myDropdown\" class=\"dropdown-content\"><a href=\"studio.html\">Studio</a><a href=\"studio/equipment.html\">Equipment</a></div></div><a href=\"who-are-we.html\" class=\"tab\">Who are we</a><a href=\"index.html\" class=\"tab img\"></a><a href=\"producers.html\" class=\"tab\">Producers</a><a href=\"lessons.html\" class=\"tab\">Lessons</a><a href=\"prices.html\" class=\"tab\">Price</a>";
 		elements.navbar.appendChild(n_div);	
 	}
 	if (elements.footer) {
 		var f_div = document.createElement("div");
 		f_div.className = "footer";
-		f_div.innerHTML = "<p>Contact us | Northern Wave</p>";
+		//Lag link til contact us
+		f_div.innerHTML = "<p><a href=\"index/information.html\">Contact us<a> | Northern Wave</p>";
 		elements.footer.appendChild(f_div);	
 	}
 })
